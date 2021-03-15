@@ -8,6 +8,6 @@ RUN pip install martor
 RUN pip install gunicorn
 ADD . /code/
 # start server
-EXPOSE 8020
+EXPOSE 30014
 STOPSIGNAL SIGTERM
 CMD ["./start-server.sh"]
